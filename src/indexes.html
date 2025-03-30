@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <footer class="bg-[rgb(101,159,143)] mt-20 p-6 rounded-lg max-w-md mx-auto">
+        <div class="text-center">
+            <h1 class="text-lg font-bold">Subscribe to our newsletter for updates.</h1>
+            
+            <div class="mt-4 space-y-2">
+                <input type="text" placeholder="Email Address" 
+                    class="w-full p-2 rounded-lg border focus:outline-none focus:ring-2 focus:ring-orange-400">
+                <button class="w-full bg-[rgb(239,120,68)] text-white p-2 rounded-lg font-semibold">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center">
+            <p class="font-semibold">Quick Link</p>
+            <div class="mt-2 space-y-1">
+                <a href="#" class="block text-gray-800 hover:text-gray-600">Home</a>
+                <a href="#" class="block text-gray-800 hover:text-gray-600">Who We Are</a>
+                <a href="#" class="block text-gray-800 hover:text-gray-600">Our Philosophy</a>
+            </div>
+        </div>
+
+        <div class="mt-6 text-center">
+            <p class="font-semibold">Technologies</p>
+            <div class="mt-2 space-y-1">
+                <a href="#" class="block text-gray-800 hover:text-gray-600">HTML</a>
+                <a href="#" class="block text-gray-800 hover:text-gray-600">CSS</a>
+                <a href="#" class="block text-gray-800 hover:text-gray-600">JavaScript</a>
+            </div>
+        </div>
+        
+        <hr class="my-6 border-[#d86943]">
+        
+        <div class="flex justify-center">
+            <a href="#">
+                <img class="w-auto h-7" 
+                    src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" 
+                    alt="Codespace Logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "module_08_muncha25131_fto2502_b2_munashe-chakona_sdf05-1",
+  "version": "1.0.0",
+  "description": "Welcome to your **Tailwind Refactor Challenge!** This project is focused on applying Tailwind’s **utility-first approach** to design a fully responsive website footer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-Nashe/Module_08_MUNCHA25131_fto2502_b2_Munashe-Chakona_SDF05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-Nashe/Module_08_MUNCHA25131_fto2502_b2_Munashe-Chakona_SDF05/issues"
+  },
+  "homepage": "https://github.com/N-Nashe/Module_08_MUNCHA25131_fto2502_b2_Munashe-Chakona_SDF05#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  }
+}
