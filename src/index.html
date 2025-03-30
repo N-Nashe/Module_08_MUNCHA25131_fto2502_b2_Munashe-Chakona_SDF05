@@ -9,54 +9,53 @@
 </head>
 <body>
 
-        <!--this is the start of the footer and h1 section-->  
     <footer class="bg-[rgb(101,159,143)] dark:bg-[rgb(101,159,143)] mt-56">
-        <div class="container">
-            <footer class=" dark:bg-[rgb(101,159,143)]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
-                        <div class="sm:col-span-2">
-                            <h1 class="max-w-lg relative sm:left-[-8px] left-7 font-bold">
-                                Subscribe to our newsletter for updates.</h1>
-                            <!--this is the end of the footer and h1 section-->
-                            
-                            <!--this is the start of the button and input section-->
-                            <div>
-                                <input id="email" type="text" placeholder="Email Adress" class="ml-6 p-1.5 rounded-lg relative top-[30px]" >
-                                <button class=" bg-[rgb(239,120,68)] ml-6 p-1.5 rounded-lg relative top-[30px]">
-                                    Subscribe
-                                </button>
-                            <!--this is the end of the button and input section-->
-                            </div>
-                        </div>
-                        <div>
+        <div class="container px-6 py-12 mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                <!-- Newsletter Section -->
+                <div>
+                    <h1 class="text-lg font-bold mb-4">
+                        Subscribe to our newsletter for updates.
+                    </h1>
+                    <div class="flex items-center space-x-4">
+                        <input id="email" type="text" placeholder="Email Address" 
+                            class="p-2 rounded-lg border border-gray-300">
+                        <button class="bg-[rgb(239,120,68)] text-white px-4 py-2 rounded-lg ">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
 
-                            <!--this is the start of links-->
-                            <p class="text-[#313131]  relative left-[580px] top-[-58px]">Quick Link</p>
-                            <div class="grid text-[#313131] relative left-[580px] top-[-30px]">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131] relative left-[357px] top-[-58px]">Technologies</p>
-                            <div class="grid text-[#313131] relative left-[360px] top-[-30px]">
-                                <a href="#">HTML</a>
+                <!-- Quick Links Section -->
+                <div>
+                    <p class="text-lg font-normal mb-4">Quick Links</p>
+                    <div class="flex flex-col space-y-2">
+                        <a href="#">Home</a>
+                        <a href="#">Who We Are</a>
+                        <a href="#">Our Philosophy</a>
+                    </div>
+                </div>
+
+               
+                <div class="bg-[rgba(201,201,204,0.34)]">
+                    <p class="text-lg font-normal mb-4">Technologies</p>
+                    <div class="flex flex-col space-y-2">
+                        <a href="#">HTML</a>
                                 <a href="#">CSS</a>
                                 <a href="#">JavaScript</a>
-                            </div>
-                        </div>
                     </div>
-                    <!--this is the end of links-->
-                    
-                    <hr class="my-6 border-[#d86943]">
-                    
-                    <div class="flex">
-                        <a href="#">
-                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
-                        </a>
-                    </div>
+                </div>
+            </div>
+
+            <hr class="my-6 border-[#d86943]">
+
+            <!-- Footer Bottom -->
+            <div class="flex justify-center">
+                <a href="#">
+                    <img class="w-auto h-7 relative left-[-490px]" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="Codespace Logo">
+                </a>
+            </div>
+        </div>
     </footer>
 
 </body>
